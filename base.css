@@ -11,18 +11,24 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
+    background-color: rgb(59, 59, 59);
     display: flex;
     flex-flow: column;
     width: 85%;
 }
 .menu {
+    background-color: #404040;
     width: 15%;
-    background-color: aqua;
     padding: 10px 20px 0px;
 }
+.menu li{
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 50% 0%;
+}
+
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
@@ -32,7 +38,15 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+#tabela_horario_de_atendimento{
+    text-align: center;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #121212;
+    color: #ffffff80;
     min-height: 150px;
+}
+.footer a , abbr{
+    text-decoration: none;
 }
